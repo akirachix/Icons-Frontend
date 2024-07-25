@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Sidebar from './Sidebar';
 function App() {
   return (
-    <div className="App">
-  
-  
-    </div>
+    <Router>
+      <div>
+        <Sidebar/>
+        <Routes>
+          <Route/>
+          <Route/>
+          <Route/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
 export default App;
