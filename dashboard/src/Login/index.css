@@ -1,0 +1,587 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.form{
+    align-items: center;
+    width: 70%;
+    margin-left: 12%;
+    margin-top:10%;
+    font-size: 30px;
+    color: black;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    color: black;
+    background-image: none;
+}
+.main{
+    width: 100%;
+    display: flex;
+
+}
+.hero{
+    width: 60%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero_image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30%;
+    margin-left: 20%;   
+}
+.logo_img{
+    height: 50px;
+    width: 50px;
+}
+.hero_img{
+    width: 120px;
+    height: 120px;
+}
+p{
+    font-size: 22px;
+    color: black;
+}
+input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+.Platform{
+    display: flex;
+    gap: 1%;
+    padding: 20px;
+
+}
+button{
+    width: 200px;
+    padding: 15px;
+    background-color: #090958;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+    border: none;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.signup_text{
+    color: #090958;
+}
+.call-to-action{
+    margin-left: 10%;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+    .form {
+      align-items: center;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 10%;
+      font-size: 20px;
+      color: black;
+    }
+  
+    .box {
+      width: 100%;
+      height: 100%;
+      color: black;
+      background-image: none;
+    }
+  
+    .main {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .hero {
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+      background-repeat: no-repeat;
+      height: 50vh;
+    }
+  
+    .hero_image {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      margin-top: 30%;
+      margin-left: 10%;
+    }
+  
+    .logo_img {
+      height: 30px;
+      width: 30px;
+    }
+  
+    .hero_img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    p {
+      font-size: 16px;
+      color: black;
+    }
+  
+    input {
+      width: 90%;
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: black;
+    }
+  
+    .Platform {
+      display: flex;
+      flex-direction: column;
+      gap: 2%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 150px;
+      padding: 12px;
+      background-color: #090958;
+      border-radius: 10px;
+      color: white;
+      font-style: bold;
+      border: none;
+      margin: 0 auto;
+      margin-left: 2%;
+    }
+  
+    .signup_text {
+      color: #090958;
+    }
+  
+    .call-to-action {
+      margin-left: 5%;
+    }
+  
+    h1 {
+      font-size: 40px;
+      color: white;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 680px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+    .form {
+      align-items: center;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 10%;
+      font-size: 24px;
+      color: black;
+    }
+  
+    .box {
+      width: 100%;
+      height: 100%;
+      color: black;
+      background-image: none;
+    }
+  
+    .main {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .hero {
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+      background-repeat: no-repeat;
+      height: 60vh;
+    }
+  
+    .hero_image {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      margin-top: 30%;
+      margin-left: 15%;
+    }
+  
+    .logo_img {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .hero_img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    p {
+      font-size: 18px;
+      color: black;
+    }
+  
+    input {
+      width: 90%;
+      padding: 18px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: black;
+    }
+  
+    .Platform {
+      display: flex;
+      flex-direction: column;
+      gap: 2%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 180px;
+      padding: 14px;
+      background-color: #090958;
+      border-radius: 10px;
+      color: white;
+      font-style: bold;
+      border: none;
+      margin: 0 auto;
+      margin-left: 3%;
+    }
+  
+    .signup_text {
+      color: #090958;
+    }
+  
+    .call-to-action {
+      margin-left: 7%;
+    }
+  
+    h1 {
+      font-size: 50px;
+      color: white;
+    }
+  }
+  @media screen and (min-width: 681px) and (max-width: 880px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+    .form {
+      align-items: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 10%;
+      font-size: 26px;
+      color: black;
+    }
+  
+    .box {
+      width: 50%;
+      height: 100%;
+      color: black;
+      background-image: none;
+    }
+  
+    .main {
+      width: 100%;
+      display: flex;
+    }
+  
+    .hero {
+      width: 50%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  
+    .hero_image {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      margin-top: 30%;
+      margin-left: 20%;
+    }
+  
+    .logo_img {
+      height: 45px;
+      width: 45px;
+    }
+  
+    .hero_img {
+      width: 110px;
+      height: 110px;
+    }
+  
+    p {
+      font-size: 20px;
+      color: black;
+    }
+  
+    input {
+      width: 80%;
+      padding: 18px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: black;
+    }
+  
+    .Platform {
+      display: flex;
+      gap: 2%;
+      padding: 20px;
+    }
+    button {
+      width: 190px;
+      padding: 15px;
+      background-color: #090958;
+      border-radius: 10px;
+      color: white;
+      font-style: bold;
+      border: none;
+      margin: 0 auto;
+      margin-left: 4%;
+    }
+  
+    .signup_text {
+      color: #090958;
+    }
+  
+    .call-to-action {
+      margin-left: 10%;
+    }
+  
+    h1 {
+      font-size: 60px;
+      color: white;
+    }
+  }
+  @media screen and (min-width: 881px) and (max-width: 1020px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+    .form {
+      align-items: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 10%;
+      font-size: 28px;
+      color: black;
+    }
+  
+    .box {
+      width: 50%;
+      height: 100%;
+      color: black;
+      background-image: none;
+    }
+  
+    .main {
+      width: 100%;
+      display: flex;
+    }
+  
+    .hero {
+      width: 50%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  
+    .hero_image {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      margin-top: 30%;
+      margin-left: 20%;
+    }
+  
+    .logo_img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .hero_img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    p {
+      font-size: 22px;
+      color: black;
+    }
+  
+    input {
+      width: 80%;
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: black;
+    }
+  
+    .Platform {
+      display: flex;
+      gap: 2%;
+      padding: 20px;
+    }
+  
+  
+    button {
+      width: 200px;
+      padding: 15px;
+      background-color: #090958;
+      border-radius: 10px;
+      color: white;
+      font-style: bold;
+      border: none;
+      margin: 0 auto;
+      margin-left: 4%;
+    }
+  
+    .signup_text {
+      color: #090958;
+    }
+  
+    .call-to-action {
+      margin-left: 10%;
+    }
+  
+    h1 {
+      font-size: 65px;
+      color: white;
+    }
+  }
+  @media screen and (min-width: 1021px) and (max-width: 1500px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  
+    .form {
+      align-items: center;
+      width: 70%;
+      margin-left: 12%;
+      margin-top: 10%;
+      font-size: 30px;
+      color: black;
+    }
+  
+    .box {
+      width: 50%;
+      height: 100%;
+      color: black;
+      background-image: none;
+    }
+  
+    .main {
+      width: 100%;
+      display: flex;
+    }
+  
+    .hero {
+      width: 60%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/home/studen/Icons-Frontend/dashboard/public/Images/man.jpeg");
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  
+    .hero_image {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      margin-top: 30%;
+      margin-left: 20%;
+    }
+  
+    .logo_img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .hero_img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    p {
+      font-size: 22px;
+      color: black;
+    }
+  
+    input {
+      width: 70%;
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: black;
+    }
+  
+    .Platform {
+      display: flex;
+      gap: 1%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 200px;
+      padding: 15px;
+      background-color: #090958;
+      border-radius: 10px;
+      color: white;
+      font-style: bold;
+      border: none;
+      margin: 0 auto;
+      margin-left: 4%;
+    }
+  
+    .signup_text {
+      color: #090958;
+    }
+  
+    .call-to-action {
+      margin-left: 10%;
+    }
+  
+    h1 {
+      font-size: 70px;
+      color: white;
+    }
+  }
+          
